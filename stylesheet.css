@@ -483,3 +483,41 @@ header {
     background-color: rgba(205, 202, 202, 0.417);
     border-radius: 20px;
 }
+
+
+
+
+/* Style the footer */
+footer {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 20px 0; /* Padding around content */
+    text-align: center; /* Center-align text */
+}
+
+/* Style the footer content */
+.footer-content {
+    max-width: 1200px; /* Limit content width */
+    margin: 0 auto; /* Center content horizontally */
+}
+
+/* Style the footer navigation */
+nav ul {
+    list-style-type: none; /* Remove default list styles */
+    margin-top: 10px; /* Add spacing above navigation links */
+}
+
+nav ul li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Add spacing between list items */
+}
+
+nav ul li a {
+    color: #fff; /* White text color for links */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Bold font weight for links */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
